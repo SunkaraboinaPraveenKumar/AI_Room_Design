@@ -28,7 +28,7 @@ function Listing() {
 
     return (
         <div className="p-4">
-            <div className="flex items-center justify-between mb-5">
+            <div className="flex sm: flex-col md:flex-col items-center justify-between mb-5">
                 <h2 className="font-bold text-3xl">Hello, {user?.fullName}</h2>
                 <Link href="/dashboard/create-new">
                     <Button>+ Design Interior</Button>

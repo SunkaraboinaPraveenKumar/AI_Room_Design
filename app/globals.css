@@ -7,14 +7,15 @@ body {
 }
 
 .before-after-slider img{
-    height: 200px !important;
-    max-height: 200px;
+    height: 300px !important;
+    max-height: 300px;
     border-radius: 20;
 }
 .before-after-slider-actual img {
   height: 400px !important;
   max-height: 400px;
   border-radius: 20px;
+  width: 200%;
 }
 
 /* Optional: Adjust the slider container for larger screens */
